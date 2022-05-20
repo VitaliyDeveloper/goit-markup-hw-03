@@ -1,0 +1,144 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2f303a;
+  --text-color-contact: #757575;
+  --highlight-text-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* ===============HEADER=============== */
+
+/*navbar*/
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--highlight-text-color);
+}
+
+.head-contact-mail:hover,
+.head-contact-tel:hover,
+.head-contact-mail:focus,
+.head-contact-tel:focus {
+  color: var(--highlight-text-color);
+}
+
+.current-link {
+  color: var(--highlight-text-color);
+}
+
+.head-contact-mail,
+.head-contact-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--text-color-contact);
+}
+
+/*logo*/
+.logo {
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: black;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+/* ===============MAIN=============== */
+
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.btn {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--text-color-contact);
+}
+
+/* ===============FOOTER=============== */
+
+.contact-section {
+  background-color: var(--accent-color);
+}
+
+/*address*/
+.footer-contact {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
+
+.local {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contact-tel,
+.footer-contact-mail {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
