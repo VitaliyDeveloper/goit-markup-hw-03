@@ -42,7 +42,50 @@ img {
   display: block;
 }
 
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*================HEADER================*/
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /*navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
@@ -56,11 +99,19 @@ img {
   color: var(--highlight-text-color);
 }
 
+.head-contact {
+  display: flex;
+}
+
 .head-contact-mail:hover,
 .head-contact-tel:hover,
 .head-contact-mail:focus,
 .head-contact-tel:focus {
   color: #2196f3;
+}
+
+.head-contact-mail {
+  margin-right: 50px;
 }
 
 .head-contact-mail,
@@ -95,6 +146,11 @@ img {
 
 .heroes {
   background-color: var(--accent-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.heroes-container {
 }
 
 .heroes-title {
@@ -114,11 +170,12 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding: 10px 32px;
+  cursor: pointer;
 }
 
 .heroes-btn:hover,
@@ -127,6 +184,9 @@ img {
 }
 
 /*ABOUT US*/
+
+.about-us-section {
+}
 
 .about-us-title {
   font-weight: 700;
@@ -146,13 +206,15 @@ img {
 
 /*WHAT WE DO (PHOTO)*/
 
+.our-work-section {
+}
+
 .our-work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 
@@ -169,6 +231,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .our-command-name {
@@ -192,6 +255,8 @@ img {
 
 .contact-section {
   background-color: var(--accent-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*address*/
