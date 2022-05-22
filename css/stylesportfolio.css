@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -54,13 +54,14 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+  }
 
 /*navbar*/
 .navbar {
@@ -178,8 +179,16 @@ img {
 .portfolio-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
+  }
+
+.portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  
+  }
+
+.border-portfolio {
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;;
+  border-bottom: 1px solid #EEEEEE;;
 }
 
 .portfolio-title {
