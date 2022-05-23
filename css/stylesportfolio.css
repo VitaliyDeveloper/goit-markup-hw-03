@@ -52,16 +52,14 @@ img {
 /* ===============HEADER=============== */
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
+}
 
 /*navbar*/
 .navbar {
@@ -78,11 +76,14 @@ img {
 }
 
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-link:hover,
@@ -137,6 +138,10 @@ img {
 
 /* ===============MAIN=============== */
 
+.portfolio-section {
+  padding-bottom: 94px;
+}
+
 /*navigation*/
 .main-btn {
   font-weight: 500;
@@ -146,7 +151,7 @@ img {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -157,6 +162,7 @@ img {
 .btn {
   cursor: pointer;
   background: #f5f4fa;
+  padding: 6px 22px;
   border-radius: 4px;
 }
 
@@ -173,22 +179,24 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
-  margin-right: -30px;
 }
 
 .portfolio-item {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
-  }
+}
 
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  }
+}
 
 .border-portfolio {
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;;
-  border-bottom: 1px solid #EEEEEE;;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .portfolio-title {
@@ -197,10 +205,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .portfolio-description {
@@ -208,25 +213,17 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--text-color-contact);
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
 }
 
 /* ===============FOOTER=============== */
 
-.contact-section {
-  background-color: var(--accent-color);
-  margin-top: 94px;
-}
-
-/*address*/
-.contact-section {
+footer {
   background-color: var(--accent-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+/*address*/
 .footer-contact {
   font-family: var(--main-font);
   font-style: normal;
@@ -236,7 +233,9 @@ img {
 }
 
 .logo-footer {
+  display: block;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .local {
@@ -244,6 +243,10 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.contact-item {
+  margin-bottom: 9px;
 }
 
 .footer-contact-tel,
