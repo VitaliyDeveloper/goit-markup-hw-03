@@ -49,7 +49,7 @@ img {
   padding-right: 15px;
 }
 
-/* ===============HEADER=============== */
+/*================HEADER================*/
 
 .page-header {
   border-bottom: 1px solid #ececec;
@@ -65,6 +65,10 @@ img {
 .navbar {
   display: flex;
   align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
 }
 
 .menu {
@@ -91,33 +95,35 @@ img {
   color: var(--highlight-text-color);
 }
 
-.contact-item-header {
-  margin-right: 50px;
+.head-contact {
+  display: flex;
 }
 
 .head-contact-mail:hover,
 .head-contact-tel:hover,
 .head-contact-mail:focus,
 .head-contact-tel:focus {
-  color: var(--highlight-text-color);
+  color: #2196f3;
 }
 
-.current-link {
-  color: var(--highlight-text-color);
-}
-
-.head-contact {
-  display: flex;
-  align-items: center;
+.contact-item-header {
+  margin-right: 50px;
 }
 
 .head-contact-mail,
 .head-contact-tel {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: var(--text-color-contact);
+  color: #757575;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.current-link {
+  color: var(--highlight-text-color);
 }
 
 /*logo*/
@@ -129,7 +135,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: black;
-  margin-right: 93px;
 }
 
 .logo-color {
