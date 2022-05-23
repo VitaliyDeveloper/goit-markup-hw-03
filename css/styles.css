@@ -205,13 +205,15 @@ img {
 .about-us-list {
   display: flex;
   margin-top: -30px;
-  margin-left: -30px;
 }
 
 .about-us-item {
   margin-top: 30px;
-  margin-left: 30px;
   width: 270px;
+}
+
+.about-us-item:not(:first-child) {
+  margin-left: 30px;
 }
 
 .about-us-title {
