@@ -344,7 +344,7 @@ footer {
   color: #ffffff;
 }
 
-.contact-item {
+.contact-item:not(:last-of-type) {
   margin-bottom: 9px;
 }
 

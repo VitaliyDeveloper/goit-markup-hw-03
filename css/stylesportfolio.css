@@ -145,6 +145,7 @@ img {
 
 .portfolio-section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /*navigation*/
@@ -156,7 +157,6 @@ img {
   letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -199,9 +199,7 @@ img {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 
 .portfolio-title {
